@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>2020 Proposal Forms</title>
+    <link rel="stylesheet" href="../assignment11/css/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+
+        <form action="" method="post" id="proposal2020">
+
+            <div id="formcol1">
+                <h1>2020 Proposal Form</h1>
+
+                <!-- Instructions Section -->
+                <div id="instructions">
+                    <h2>Instructions</h2>
+                    <p>Please complete all required fields (marked by * symbol)</p>
+                </div>
+                <fieldset>
+                    <legend>Speaker Info</legend>
+                    <ul>
+                        <li>
+                            <label for="fstspkr1">First Name<span class="required">*</span>:</label>
+                            <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" />
+                        </li>
+                        <li>
+                            <label for="lstname1">Last Name<span class="required">*</span>:</label>
+                            <input id="lstname1" name="lstname1" type="text" class="reqfield" />
+                        </li>
+                        <li>
+                            <label for="spkrtitle1">Title:</label>
+                            <input id="spkrtitle1" name="spkrtitle1" type="text" maxlength="48" />
+                        </li>
+                        <li>
+                            <label for="company1">Company:</label>
+                            <input id="company1" name="company1" type="text" />
+                        </li>
+                        <li>
+                            <label for="department1">Department:</label>
+                            <input id="department1" name="department1" type="text" />
+                        </li>
+                        <li>
+                            <label for="address1">Address<span class="required">*</span>:</label>
+                            <input id="address1" class="reqfield" name="address1" type="text" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+            <div id="multchoice">
+                <fieldset>
+                    <legend>Type of Presentation</legend>
+                    <p>
+                        <span><input value="1" id="TypeofPres_lec" name="p-type" type="radio" />
+                            <label for="TypeofPres_lec">Lecture</label>
+                        </span>
+                        <span><input value="2" id="TypeofPres_lab" name="p-type" type="radio" />
+                            <label for="TypeofPres_lab">Computer Lab</label>
+                        </span>
+                    </p>
+                </fieldset>
+                <p class="submit-button">
+                    <input type="submit" value="Submit your proposal" />
+                </p>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

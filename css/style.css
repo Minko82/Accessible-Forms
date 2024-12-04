@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Form styling */
+#wrapper {
+    width: 60%;
+    margin-left: 4%;
+    font-family: Arial, sans-serif;
+}
+
+#instructions {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+#instructions h2 {
+    font-size: 1.3em;
+    color: #333;
+}
+
+#instructions p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+div#formcol1 {
+    float: left;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+label {
+    margin-right: .3em;
+    width: 6.3em;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+}
+
+#formcol1 li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+input[type="text"] {
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: .2em;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#multchoice span {
+    margin-right: 15px;
+}
+
+fieldset {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus+label,
+input:active+label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: #BB3D2F !important;
+}
+
+#formcol1 input.reqfield {
+    background: #FF9;
+}
+
+input[type="text"]:focus,
+input[type="radio"]:focus {
+    border: 2px solid #4CAF50;
+    outline: none;
+}
+
+.submit-button input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* end of form css */
