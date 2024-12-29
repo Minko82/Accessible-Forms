@@ -27,7 +27,7 @@ Check out the final accessible design of the form:
 
 ---
 
-## 💻 **Technologies Used**
+## 💻 **Technologies and Tools**
 
 - **HTML**: For creating the structure of the form.  
 - **CSS**: For styling the form while maintaining readability and usability.  
