@@ -2,7 +2,7 @@
 
 ## 📝 **Project Description**
 
-This is a small web project designed to create a form that is fully accessible to users with diverse abilities. The form is compatible with screen readers and supports keyboard-only navigation, ensuring a seamless experience for all users, including those with disabilities. This project is part of a broader effort to promote inclusivity and usability in web design.
+This web project creates an accessible form compatible with screen readers and keyboard-only navigation, promoting inclusivity in web design.
 
 <br>
 
